@@ -1,0 +1,49 @@
+D:\barron 3\applicacion\bin\Debug\applicacion.exe.config
+D:\barron 3\applicacion\bin\Debug\applicacion.exe
+D:\barron 3\applicacion\bin\Debug\applicacion.pdb
+D:\barron 3\applicacion\obj\Debug\applicacion.csproj.AssemblyReference.cache
+D:\barron 3\applicacion\obj\Debug\applicacion.Form1.resources
+D:\barron 3\applicacion\obj\Debug\applicacion.Properties.Resources.resources
+D:\barron 3\applicacion\obj\Debug\applicacion.csproj.GenerateResource.cache
+D:\barron 3\applicacion\obj\Debug\applicacion.csproj.CoreCompileInputs.cache
+D:\barron 3\applicacion\obj\Debug\applicacion.exe
+D:\barron 3\applicacion\obj\Debug\applicacion.pdb
+D:\barron 3\applicacion\obj\Debug\applicacion.Formas.CrearCuenta.resources
+F:\barron 3\applicacion\bin\Debug\applicacion.exe.config
+F:\barron 3\applicacion\bin\Debug\applicacion.exe
+F:\barron 3\applicacion\bin\Debug\applicacion.pdb
+F:\barron 3\applicacion\obj\Debug\applicacion.csproj.AssemblyReference.cache
+F:\barron 3\applicacion\obj\Debug\applicacion.Form1.resources
+F:\barron 3\applicacion\obj\Debug\applicacion.Formas.CrearCuenta.resources
+F:\barron 3\applicacion\obj\Debug\applicacion.Properties.Resources.resources
+F:\barron 3\applicacion\obj\Debug\applicacion.csproj.GenerateResource.cache
+F:\barron 3\applicacion\obj\Debug\applicacion.csproj.CoreCompileInputs.cache
+F:\barron 3\applicacion\obj\Debug\applicacion.exe
+F:\barron 3\applicacion\obj\Debug\applicacion.pdb
+F:\barron 3\applicacion\obj\Debug\applicacion.Formas.Estudiantes.resources
+D:\barron 3\applicacion\obj\Debug\applicacion.Formas.Estudiantes.resources
+E:\barron 3\applicacion\bin\Debug\applicacion.exe.config
+E:\barron 3\applicacion\bin\Debug\applicacion.exe
+E:\barron 3\applicacion\bin\Debug\applicacion.pdb
+E:\barron 3\applicacion\obj\Debug\applicacion.csproj.AssemblyReference.cache
+E:\barron 3\applicacion\obj\Debug\applicacion.Form1.resources
+E:\barron 3\applicacion\obj\Debug\applicacion.Formas.CrearCuenta.resources
+E:\barron 3\applicacion\obj\Debug\applicacion.Formas.Estudiantes.resources
+E:\barron 3\applicacion\obj\Debug\applicacion.Properties.Resources.resources
+E:\barron 3\applicacion\obj\Debug\applicacion.csproj.GenerateResource.cache
+E:\barron 3\applicacion\obj\Debug\applicacion.csproj.CoreCompileInputs.cache
+E:\barron 3\applicacion\obj\Debug\applicacion.exe
+E:\barron 3\applicacion\obj\Debug\applicacion.pdb
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\bin\Debug\applicacion.exe.config
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\bin\Debug\applicacion.exe
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\bin\Debug\applicacion.pdb
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.csproj.AssemblyReference.cache
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.Form1.resources
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.Formas.CrearCuenta.resources
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.Formas.Estudiantes.resources
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.Properties.Resources.resources
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.csproj.GenerateResource.cache
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.csproj.CoreCompileInputs.cache
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.exe
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.pdb
+C:\Users\ivonm\Downloads\applicacion-20231031T062201Z-001\applicacion\obj\Debug\applicacion.Formas.docentes.resources

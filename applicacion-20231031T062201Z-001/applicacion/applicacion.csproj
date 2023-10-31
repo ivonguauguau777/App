@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96A39ECE-0E80-4D6D-BE5E-A93DE2B44A85}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>applicacion</RootNamespace>
+    <AssemblyName>applicacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\CrearCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\CrearCuenta.Designer.cs">
+      <DependentUpon>CrearCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\docentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\docentes.Designer.cs">
+      <DependentUpon>docentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\Estudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\Estudiantes.Designer.cs">
+      <DependentUpon>Estudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioContra.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\CrearCuenta.resx">
+      <DependentUpon>CrearCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\docentes.resx">
+      <DependentUpon>docentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\Estudiantes.resx">
+      <DependentUpon>Estudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b201bba98f63a7534ecad762b32bb4eb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laptop-1_102326.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet_lock_locked_padlock_password_secure_security_icon_127100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_entrance_exit_internet_log_out_security_icon_127059.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e58b87144f8cfc88620ada2c0ddc7a73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingresa al sistema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26b3dc82c6146f0e4ef5de0deb25d019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crearcuenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0c24e52e8e4b8e3d2a0c5fc4c3fb46ac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone-trait-noir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4afc3a3f79a92036da267471bb37a20f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3592855-business-man-employee-general-human-member-office-tie_107745.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3592828-general-key-key-lock-lock-office-password-security_107759.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3592827-access-general-house-key-key-lock-key-login-office_107758.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_remove_close_icon_181533.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_insert_add_new_icon_181537.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_edit_modify_pencil_icon_181536.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4124804-customize-magnifier-magnifying-lens-options-search-settings_113894.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b8d85083aea8c8e0ef3c5e22b5249ff0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5db54fd38d531034ca662eb3e484b242de0023c1_s2_n3_y1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-illustration-magnifying-glass-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edcec3237ad70a15c1266773e1eeaf068497f4a9_s2_n3_y1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4a1030b1956e3866ec43c78758f9f7182b4970c1_s2_n3_y1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4a1030b1956e3866ec43c78758f9f7182b4970c1_s2_n3_y11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\736a61b8aacc6c781da9d3400b9578a3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad80f071a1399dc350301f6318df23c2d6d1e3c1_s2_n3_y1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\234c5602e246db1015651e2510f43311f14cefd7_s2_n3_y1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0c24e52e8e4b8e3d2a0c5fc4c3fb46ac1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0c24e52e8e4b8e3d2a0c5fc4c3fb46ac2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a3dd66eee23adcf2fe0012785f0af287.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6521b6380fd1d56389ad9279cbeefb4a7c7741ba_s2_n3_y11111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decc2dbc1ae38ce4ece31a8b328cb5babfb9322d_s2_n3_y1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4a1030b1956e3866ec43c78758f9f7182b4970c1_s2_n3_y12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casual Summer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perrito.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
